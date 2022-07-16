@@ -1,0 +1,28 @@
+{
+  "rdbms": {
+    "MYSQL": {
+      "databaseName": "sakila",
+      "pluginId": "MYSQL",
+      "accessType": 0,
+      "hostname": "${servidor_mysql}",
+      "password": "${senha_mysql}",
+      "port": "${porta_mysql}",
+      "pluginName": "MySQL",
+      "driverClassName": "",
+      "attributes": {
+        "SUPPORTS_TIMESTAMP_DATA_TYPE": "Y",
+        "QUOTE_ALL_FIELDS": "N",
+        "STREAM_RESULTS": "N",
+        "SUPPORTS_BOOLEAN_DATA_TYPE": "Y",
+        "FORCE_IDENTIFIERS_TO_LOWERCASE": "N",
+        "PRESERVE_RESERVED_WORD_CASE": "Y",
+        "SQL_CONNECT": "",
+        "FORCE_IDENTIFIERS_TO_UPPERCASE": "N",
+        "PREFERRED_SCHEMA_NAME": ""
+      },
+      "manualUrl": "",
+      "username": "${usuario_mysql}"
+    }
+  },
+  "name": "sakila"
+}
